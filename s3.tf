@@ -26,6 +26,6 @@ terraform {
 backend "s3" {
 region = "us-east-1"
 bucket = "storage2k26.monobucket"
-key = "prod/storage2k26.tfstate"
+key = "prod/terraform.tfstate"
 }
 } 
