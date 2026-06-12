@@ -22,10 +22,10 @@ versioning_configuration {
 status = "Enabled"
 }
 }
-/* terraform {
+terraform {
 backend "s3" {
 region = "us-east-1"
 bucket = "mustafashaik1122.monobucket"
-key = "prod/terraform.tfstate"
+key = "prod/storage2k26.tfstate"
 }
-} */
+} 
